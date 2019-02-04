@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+#banner {
+    background-color: rgb(255,8,100)
+   
+    
+}
+
+.icon {
+   
+    font-size: 56px;
+}
+
+.keySkills li {
+    display: inline;
+    margin-right: 10px;
+    padding: 70px;
+}
+
+/* #about {
+    height: 150px;
+} */
+
+.paragraphDescription {
+    height: 300px;
+}
+.bannerText {
+    color: rgb(255,255,255);
+    text-align: center;
+    width: 100%
+}
+
+#banner h1 {
+    color: rgb(255,255,255);
+    text-align: center;
+    width: 100%
+}
+ 
+/* .projectSection {
+    display: inline-block;
+}  */
+
+/* div {
+    border-style: solid;
+    padding: 5px;
+} */
+
+.keySkills {
+    text-align: center;
+}
+
+.page {
+    background-color: #ffffff;
+}
+
+.technical {
+    display: block;
+}
+
+.projectImg {
+    height: 300px;
+    display: block;
+}
+
+img {
+    display: block;
+}
