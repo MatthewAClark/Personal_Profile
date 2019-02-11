@@ -28,34 +28,30 @@ body {
     margin-right: 10px;
     padding: 70px;
 }
-
-/* #about {
-    height: 150px;
-} */
-
-.paragraphDescription {
-    height: 300px;
-}
-.bannerText {
-    color: rgb(255,255,255);
-    text-align: center;
-    width: 100%
-}
-
-#banner h1 {
-    color: rgb(255,255,255);
-    text-align: center;
-    width: 100%
-}
- 
-/* .projectSection {
-    display: inline-block;
-}  */
-
-/* div {
+/* 
+div {
     border-style: solid;
-    padding: 5px;
 } */
+
+/* .bannerText {
+    color: rgb(255,255,255);
+    text-align: center;
+    width: 100%
+}
+*/
+#banner {
+    color: rgb(255,255,255);
+    width: 100%
+} 
+
+#bannerTitle {
+    font-size: 36pt;
+}
+
+#bannerIntro {
+    text-align: center;
+}
+
 
 a {
     text-decoration: none;
@@ -77,6 +73,10 @@ a {
 .projectImg {
     height: 300px;
     display: block;
+}
+
+.paragraphDescription {
+    height: 300px;
 }
 
 img {
