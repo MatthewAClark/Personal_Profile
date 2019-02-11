@@ -9,7 +9,7 @@ body {
 }
 
 #banner {
-    background-color: rgb(255,8,100)
+    background-color: rgb(8, 177, 255)
    
     
 }
@@ -78,7 +78,10 @@ a {
 .paragraphDescription {
     height: 300px;
 }
-
+/* 
+.paragraphDescription p {
+    padding-left: 100px;
+} */
 img {
     display: block;
 }
