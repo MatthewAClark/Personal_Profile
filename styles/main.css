@@ -19,6 +19,10 @@ body {
     font-size: 56px;
 }
 
+.techIcon {
+    display: inline-block;
+}
+
 .keySkills li {
     display: inline;
     margin-right: 10px;
