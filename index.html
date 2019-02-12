@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
     <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
     <script src="main.js"></script>
@@ -24,10 +25,11 @@
                 <span>A Junior full-stack developer</span>
             </div>
 
-            <span style="font-size: 36px; color: #ffffff">
-                <a href="https://www.linkedin.com/in/matthew-clark-517b63101/" target="_blank" style="color: white">
+            <span style=" color: #ffffff; text-align: right; float: right;">
+                <a href="https://github.com/MatthewAClark/" target="_blank" style=" font-size: 36px; color: white; padding: 10px;"><i class="fab fa-github-square"></i></a>
+               <a href="https://www.linkedin.com/in/matthew-clark-517b63101/" target="_blank" style=" font-size: 36px; color: white; padding: 10px;">
                     <i class="fab fa-linkedin-in"></i>
-                </a>
+               </a>
             </span>
         </div>
 
@@ -45,7 +47,7 @@
 
                 <p style="height: 150px" class="grid_10">
                     Hi! I'm a junior full stack developer who has graduated from Northcoders, a bootcamp coding course based in Manchester, England.
-                    I am eager and passionate to learn and develop my skills as a web developer.
+                    I am eager and passionate to learn and develop my skills in coding and am now looking for work as a junior software developer.
                 </p>
 
 
@@ -105,9 +107,18 @@
             <h2>My Projects</h2>
             <hr />
             <div class="projectSection technical container_12 clearfix">
-                <h3>
-                    <a href="https://personal-train-app-nc-project.herokuapp.com/"> Personal Rail Passenger App </a>
-                </h3>
+               <div class="grid_12">
+                    <a class="button" style="float: right" href='https://personal-train-app-nc-project.herokuapp.com/' target="_blank">
+                          
+                        <span>view app</span>
+                    </a>
+                    <h3>
+                            Personal Rail Passenger App 
+                       </h3>
+    
+               </div>
+
+               
                 <div class="grid_7">
 
                     <img src="images/rail_passenger_app.png" alt="rail passenger app" width="550px" height="300" align="left" />
@@ -121,13 +132,11 @@
                         After using many apps for planning my rail journeys, I realised there was not one app that tailoured journeys towards the
                         indidual's needs for regularly travel between their stations of use. Not only this, but most apps
                         out there did not display what services were regularly delayed so that users could plan their journey's
-                        around expected late trains. An app was therefore designed where the user's specific train routes
-                        and destinations can be stored within the app, along with popular schedules that they use. The user
+                        around expected late trains. I therefore decided to design an app where the user's specific train routes
+                        and destinations could be stored within the app, along with popular schedules that they use. The user
                         is then able to look at the app's home screen which details departures happening now from their favourite
                         stations and whether they are late. Train punctualilty is also included historically in another section,
                         so that users can expect delays from certain trains on certain schedules.
-
-
 
 
                     </p>
@@ -136,19 +145,30 @@
 
                 <div>
                     <h4>Technical Details</h4>
-                    <p>Please follow the Github links to look at the code</p>
+                    <p>It became apparent early on that a relational database would be the best approach regarding this data, since train stations can relate to train schedules and train schedules can relate to their performance data. Since I had learnt PostgreSQL on my course at Northcoders, I decided to use that technology as I had the support and understanding through my studies. 
+                    </p>
+                    <p>
+                        The database contains 4 tables, stations, routes, schedules and performances. By splitting the data up in this way has made it easier to work with specific data sets that are related by one common key.  
+                    </p>
+                
                     <h4 class="grid_6">Front End</h4>
                     <h4 class="grid_6">Back End</h4>
                     <div class="grid_6">
 
-                        <span style="font-size: 48px;" class="grid_1">
-                            <a href='https://github.com/MatthewAClark/FE_NC_PROJECT_PUBLIC' target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
+                            <div class="grid_2">
+                                    <span style="font-size: 48px; ">
+                                        <a class="button" href='https://github.com/MatthewAClark/FE_NC_PROJECT_PUBLIC' target="_blank">
+                                            <i class="fab fa-github" style="font-size: 48px;"></i><br>
+                                            <span>view code</span>
+                                        </a>
+            
+            
+                                    </span>
+                                </div>
+            
+                                <div>
+                                    <ul class="grid_2">
 
-                        </span>
-                        <div>
-                            <ul class="grid_3">
                                 <li>
                                     ReactJS
                                 </li>
@@ -168,16 +188,21 @@
 
                     <div class="grid_6">
 
-                        <div class="grid_1">
-                            <span style="font-size: 48px;" class="grid_2">
-                                <a href='https://github.com/MatthewAClark/BE_NC_PROJECT_PUBLIC' target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
+                            <div class="grid_2">
+                                    <span style="font-size: 48px; ">
+                                        <a class="button" href='https://github.com/MatthewAClark/BE_NC_PROJECT_PUBLIC' target="_blank">
+                                            <i class="fab fa-github" style="font-size: 48px;"></i><br>
+                                            <span>view code</span>
+                                        </a>
+            
+            
+                                    </span>
+                                </div>
+            
+                                <div>
+                                    <ul class="grid_2">
 
-                            </span>
-                        </div>
-
-                        <ul class="grid_3">
+                   
                             <li>
                                 NodeJS
                             </li>
@@ -188,7 +213,7 @@
                                 SQL
                             </li>
                             <li>
-                                PreSQL
+                                PostgreSQL
                             </li>
                         </ul>
                     </div>
@@ -199,10 +224,21 @@
             <hr />
 
             <div class="projectSection technical container_12 clearfix">
-                <h3>
-                    <a href="https://sheltered-sands-86.herokuapp.com/
-                    https://github.com/MatthewAClark/FE_NC_NEWS_PUBLIC.git" target="_blank"> Northcoders News</a>
-                </h3>
+
+                    <div class="grid_12">
+                            <a class="button" style="float: right" href='https://sheltered-sands-86.herokuapp.com/' target="_blank">
+                                  
+                                <span>view app</span>
+                            </a>
+                            <h3>
+                                    Northcoders News 
+                               </h3>
+            
+                       </div>
+
+               
+               
+
                 <img class="projectImg" src="images/ncnews.png" alt="rail passenger app" width="550" height="300" align="right" class="grid_7"
                 />
                 <div class="paragraphDescription">
@@ -218,18 +254,25 @@
 
 
                 <h4>Technical Details</h4>
-                <p>Please follow the Github links to look at the code</p>
+                <p>The database used for this was the non-relational database MongoDB, with Mongoose being used for integrating the schema with the database. MongoDB was specified for this project as the data for social media sites tends not to confirm to any relationship between different sets of data.</p>
+                
 
 
 
-                <h4 class="grid_6">Front End</h4>
-                <h4 class="grid_6">Back End</h4>
+                <h4 class="grid_6" >Front End</h4>
+
+                <!-- <div class="grid_6" style="display: inline"> -->
+                        <h4 class="grid_6" style="display: inline-block">Back End</h4> 
+                       
+                <!-- </div> -->
+                
 
                 <div class="grid_6">
-                    <div class="grid_1">
+                    <div class="grid_2">
                         <span style="font-size: 48px; ">
-                            <a href='https://github.com/MatthewAClark/FE_NC_NEWS_PUBLIC' target="_blank">
-                                <i class="fab fa-github "></i>
+                            <a class="button" href='https://github.com/MatthewAClark/FE_NC_NEWS_PUBLIC' target="_blank">
+                                <i class="fab fa-github" style="font-size: 48px;"></i><br>
+                                <span>view code</span>
                             </a>
 
 
@@ -237,7 +280,7 @@
                     </div>
 
                     <div>
-                        <ul class="grid_4">
+                        <ul class="grid_2">
                             <li>ReactJS</li>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -248,17 +291,19 @@
 
 
 
+                <div class="grid_2">
+                        <span style="font-size: 48px; ">
+                            <a class="button" href='https://github.com/MatthewAClark/BE_NC_NEWS_PUBLIC' target="_blank">
+                                <i class="fab fa-github" style="font-size: 48px;"></i><br>
+                                <span>view code</span>
+                            </a>
 
-                <div class="grid_1">
-                    <span style="font-size: 48px;" class="grid_2">
-                        <a href='https://github.com/MatthewAClark/BE_NC_NEWS_PUBLIC' target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
 
-                    </span>
-                </div>
+                        </span>
+                    </div>
 
-                <ul class="grid_2">
+                    <div>
+                        <ul class="grid_2">
                     <li>NodeJS</li>
                     <li>Express</li>
                     <li>MongoDB</li>
