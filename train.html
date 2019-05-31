@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Matthew Clark Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"   
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body class="bg-dark">
+
+      
+
+    <!-- ********** Navbar section ************* -->
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+
+                <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="movie.html">Movie Madness</a>
+                          <a class="dropdown-item" href="ncnews.html">Northcoders News</a>
+                          
+                          <a class="dropdown-item" href="train.html">Personal Train Travel</a>
+                        </div>
+                      </li>
+
+               
+        </div>
+    </nav>
+
+    <!-- ******************************** -->
+
+            <div class="projectSection technical container_12 clearfix text-white">
+                <div class="grid_12">
+                    <a class="button" style="float: right" href='https://personal-train-app-nc-project.herokuapp.com/'
+                        target="_blank">
+
+                        <button type="button" class="btn btn-primary">view app</button>
+                        
+                    </a>
+                    <h3>
+                        Personal Rail Passenger App
+                    </h3>
+
+                </div>
+
+
+                <div class="grid_7">
+
+                    <img src="images/rail_passenger_app.png" alt="rail passenger app" width="550px" height="300"
+                        align="left" />
+                </div>
+
+
+                <div class="grid_5">
+
+
+                    <p>
+                        After using many apps for planning my rail journeys, I realised there was not one app that
+                        tailoured journeys towards the
+                        indidual's needs for regularly travel between their stations of use. Not only this, but most
+                        apps
+                        out there did not display what services were regularly delayed so that users could plan their
+                        journey's
+                        around expected late trains. I therefore decided to design an app where the user's specific
+                        train routes
+                        and destinations could be stored within the app, along with popular schedules that they use. The
+                        user
+                        is then able to look at the app's home screen which details departures happening now from their
+                        favourite
+                        stations and whether they are late. Train punctualilty is also included historically in another
+                        section,
+                        so that users can expect delays from certain trains on certain schedules.
+
+
+                    </p>
+                </div>
+
+
+                <div class="grid_12">
+
+                    <div>
+                        <a class="button" style="float: right" href='https://aqueous-shelf-21128.herokuapp.com/'
+                            target="_blank">
+
+                            <button type="button" class="btn btn-primary">view API</button>
+                            
+                        </a>
+                    </div>
+                    <h4>Technical Details</h4>
+
+
+                    <p>It became apparent early on that a relational database would be the best approach regarding this
+                        data, since train stations can relate to train schedules and train schedules can relate to their
+                        performance data. Since I had learnt PostgreSQL on my course at Northcoders, I decided to use
+                        that technology as I had the support and understanding through my studies.
+                    </p>
+                    <p>
+                        The database contains 4 tables, stations, routes, schedules and performances. By splitting the
+                        data up in this way has made it easier to work with specific data sets that are related by one
+                        common key.
+                    </p>
+                </div>
+
+
+                <h4 class="grid_6">Front End</h4>
+                <h4 class="grid_6">Back End</h4>
+                <div class="grid_6">
+
+                    <div class="grid_2">
+                        <span style="font-size: 48px; ">
+                            <a class="button" href='https://github.com/MatthewAClark/FE_NC_PROJECT_PUBLIC'
+                                target="_blank">
+                                <i class="fab fa-github" style="font-size: 48px;"></i><br>
+                                <span>view code</span>
+                            </a>
+
+
+                        </span>
+                    </div>
+
+                    <div>
+                        <ul class="grid_2">
+
+                            <li>
+                                ReactJS
+                            </li>
+                            <li>
+                                HTML
+                            </li>
+                            <li>
+                                CSS
+                            </li>
+                            <li>
+                                Bootstrap
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="grid_6">
+
+                    <div class="grid_2">
+                        <span style="font-size: 48px; ">
+                            <a class="button" href='https://github.com/MatthewAClark/BE_NC_PROJECT_PUBLIC'
+                                target="_blank">
+                                <i class="fab fa-github" style="font-size: 48px;"></i><br>
+                                <span>view code</span>
+                            </a>
+
+
+                        </span>
+                    </div>
+
+                    <div>
+                        <ul class="grid_2">
+
+
+                            <li>
+                                NodeJS
+                            </li>
+                            <li>
+                                Express
+                            </li>
+                            <li>
+                                SQL
+                            </li>
+                            <li>
+                                PostgreSQL
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            
+
+           
+
+</body>
+
+</html>y>
+
+</html>

@@ -94,6 +94,10 @@ a {
 .paragraphDescription p {
     padding-left: 100px;
 } */
-img {
+.profileImg {
     border-radius: 50%;
 } 
+
+.keySkills {
+    height: 50%;
+}
