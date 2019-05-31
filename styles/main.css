@@ -1,14 +1,14 @@
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #efefef;
+    background-color: black;
 }
-
+/* 
 .container {
     margin: auto;
     max-width: 1000px;
-}
+} */
 
-#banner {
+/* #banner {
     background-color: rgb(8, 177, 255);
     height: 120px;
 }
@@ -25,7 +25,7 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
-
+*/
 .icon {
    
     font-size: 56px;
@@ -34,7 +34,7 @@ body {
 .techIcon {
     display: inline-block;
 }
-
+/*
 .keySkills li {
     display: inline;
     margin-right: 10px;
@@ -50,10 +50,10 @@ div {
     text-align: center;
     width: 100%
 }
-*/
+
 #banner {
     color: rgb(255,255,255);
-    width: 100%
+    width: 100% 
 } 
 
 #bannerTitle {
@@ -64,12 +64,12 @@ div {
     text-align: center;
 }
 
-
+*/
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
-
+/*
 .keySkills {
     text-align: center;
 }
@@ -95,5 +95,5 @@ a {
     padding-left: 100px;
 } */
 img {
-    display: block;
-}
+    border-radius: 50%;
+} 
